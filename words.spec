@@ -1,7 +1,7 @@
 Summary: A dictionary of English words for the /usr/share/dict directory
 Name: words
 Version: 3.0
-Release: 21%{?dist}
+Release: 22%{?dist}
 License: Public Domain
 Group: System Environment/Libraries
 # Note that Moby Project officially does not exist any more. The most complete
@@ -80,6 +80,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/dict/words
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.0-22
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 3.0-21
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
